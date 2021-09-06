@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Survey Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+  <header>
+<h1 id="title"> Apple Store</h1>
+
+  </header>
+<body>
+<p id="description"> Fill details below to complete your apple order wishlist</p>
+
+
+<form id="survey-form">
+   
+  <div class="form-layout">
+         
+         
+  <label for="name" id="name-label">Name </label>
+  <input id="name" type="text" name="name" placeholder="Allan Pepper" class="input-layout" required> </input>
+<br>
+<label for="email" id="email-label">Email </label>
+<input id="email" type="email" name="email" placeholder="allanstone@apple.com" class="input-layout" required> </input>
+<br>
+
+<label for="number" id="number-label"> Age </label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="input-layout" required> </input> 
+<br>
+
+<label for="dropdown" id="model">select product </label>
+<select id="dropdown" class="input-layout"> 
+  <option value="Mac"> Mac </option>
+  <option value="iPhone"> iPhone </option>
+  <option value="iPad"> iPad </option>
+  <option value="Apple Watch"> Apple Watch </option>
+  <option value="AirPods"> AirPods </option>
+  <option value="AirTag"> AirTag </option>
+  <option value="Apple TV "> Apple TV </option>
+  <option value="HomePod mini"> HomePod mini </option>
+  <option value="Accessories"> Accessories </option>
+   </select>
+<br>
+<br>
+
+<label for="product_color" id="product_color"> <strong>Product Color:</strong> </label>
+<br>
+
+<input id="product_color" type="radio" id="Space Grey" name="color" value="Space Grey">
+<label for="product_color"> Space Grey </label>
+<br>
+
+
+  <input id="product_color" type="radio" id="Space Grey" name="color" value="Space Grey">
+<label for="product_color"> Graphite </label>
+<br>
+
+<input id="product_color" type="radio" id="Space Grey" name="color" value="Space Grey">
+<label for="product_color"> Silver </label>
+<br>
+
+<input id="product_color" type="radio" id="Space Grey" name="color" value="Space Grey">
+<label for="product_color"> Gold</label>
+<br>
+
+<input id="product_color" type="radio" id="Space Grey" name="color" value="Space Grey">
+<label for="product_color"> Pacific Blue</label>
+<br>
+<br>
+
+<label for="acessories"><strong>Add accessories:</strong> </label> 
+<br>
+<input id="checkbox" type="checkbox" name"accessories" value="Wireless Chargers">
+<label for="checkbox"> Wireless Chargers - £99,00 </label>
+<br>
+<input id="checkbox" type="checkbox" name"accessories" value="Wireless Chargers">
+<label for="checkbox"> USB-C to Lightning Cable (1m) - £19.00 </label>
+<br>
+<input id="checkbox" type="checkbox" name"accessories" value="Wireless Chargers">
+<label for="checkbox"> AirPods with Wireless Charging Case - £199.00 </label>
+<br>
+<input id="checkbox" type="checkbox" name"accessories" value="Wireless Chargers">
+<label for="checkbox"> AirPods Max - £549.00 </label>
+<br>
+       
+<label id="textarea"> Additional Comments </label>  
+<br>
+<textarea id="textarea" name="instructions" rows= "4" cols="40">
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="Place Order" class="submit-button">
+  
+  </div>
+
+ </form>
+</body>  
+</html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+  font-family: 'ubuntu';
+  line-height: 1.4;
+  background-color: hsl(0 0% 98%);
+  width: 500px;
+  margin: auto;
+}
+
+form {
+  background: rgb(126, 156, 180);
+  paddig: 2.5rem 2.5rem;
+  border-radius: 1rem;
+  width: 500px;
+  margin: auto;
+}
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: black;
+  color: white;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.form-layout {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.input-layout {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background: #fff;
+  border: 1px solid;
+}
